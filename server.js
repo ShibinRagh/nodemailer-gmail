@@ -14,7 +14,7 @@ app.get('/', function(req, res){
 app.get('/send', function (req, res) {
     res.send("send");
 });
-
+ 
 // EMail configuration
 /*var smtpTransport = nodemailer.createTransport("SMTP",{
     service: "Gmail",
